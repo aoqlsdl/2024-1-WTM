@@ -8,6 +8,7 @@
 	color: #000;
 	line-height: 64px;
 	background-color: #fff;
+	backdrop-filter: blur(10px);
 	font-weight: 800;
 }
 
