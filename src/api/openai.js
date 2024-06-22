@@ -1,8 +1,6 @@
 const API_KEY = import.meta.env.VITE_APP_OPENAI_API_KEY;
 
 export const fetchOpenAIResponse = async messages => {
-	console.log('OpenAI API Key:', API_KEY); // 디버깅을 위해 콘솔 로그 추가
-	console.log('Messages:', messages);
 	let retryCount = 0;
 	const maxRetries = 3;
 	const retryDelay = 1000; // milliseconds
